@@ -8,7 +8,6 @@ export default function Navbar() {
       <h1>ISR is pretty cool</h1>
       <Link href="/">Home</Link>
       <Link href="/login">Login</Link>
-      <Link href="/movies">Movies</Link>
     </nav>
   );
 }
