@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["the-headless-blog.local", "api-headless-blog.000webhostapp.com"],
+    domains: ["atlasnextisr.wpenginepowered.com"],
   },
 };
 
