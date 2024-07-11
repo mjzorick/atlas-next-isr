@@ -1,8 +1,9 @@
-const { withAtlasConfig } = require("@wpengine/atlas-next");
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Your existing Next.js config
+  reactStrictMode: true,
+  images: {
+    domains: ["the-headless-blog.local", "api-headless-blog.000webhostapp.com"],
+  },
 };
 
-module.exports = withAtlasConfig(nextConfig);
+module.exports = nextConfig;
