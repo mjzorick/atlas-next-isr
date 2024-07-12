@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@wpengine/atlas-next": "^1.1.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.31",
     "@types/react-dom": "18.0.11",
