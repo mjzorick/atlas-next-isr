@@ -9,16 +9,6 @@ export const Hero = () => {
           stories and ideas.
         </h1>
         <p className="my-6 text-lg">
-          Follow me on{" "}
-          <Link
-            href="https://twitter.com/JeffreySunny1"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline text-blue-500"
-          >
-            Twitter
-          </Link>
-          .
         </p>
         <p className="text-center">😎😎😎</p>
       </div>

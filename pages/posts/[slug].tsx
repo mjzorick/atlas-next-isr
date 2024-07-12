@@ -28,7 +28,7 @@ export default function PostDetails({ post }: { post: any }) {
           ></div>
           <div className="z-20 text-center">
             <h1 className="text-2xl md:text-4xl mb-4">{post.title}</h1>
-            <p className="italic">By Jeffrey</p>
+            <p className="italic">By Peaches</p>
           </div>
         </div>
         <div
@@ -54,5 +54,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   return {
     props: { post },
+    revalidate: 10,
   };
 };

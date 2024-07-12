@@ -36,13 +36,7 @@ export const SEO = ({
       <meta name="description" content={description} />
       <meta name="robots" content="follow, index" />
 
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@JeffreySunny1" />
-      <meta name="twitter:image" content={image} />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={description} />
-
-      <meta property="og:site_name" content="Jeffrey's Blog" />
+      <meta property="og:site_name" content="Next.js Stuff" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={url} />
@@ -50,10 +44,6 @@ export const SEO = ({
       <meta property="og:image" content={image} />
 
       {/* Google Site Ownership Verification */}
-      <meta
-        name="google-site-verification"
-        content="a0Mzfa1xwDcidlG7r7CQwBBN_DPZCqIWkBJ3SXCGT38"
-      />
 
       <link rel="shortcut icon" href={faviconIco.src} />
       <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon.src} />

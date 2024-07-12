@@ -9,8 +9,8 @@ export default function HomePage({ posts }: { posts: any }) {
   return (
     <>
       <SEO
-        title="Welcome to Jeffrey's Blog"
-        description="Access all tech content and beyond"
+        title="Testing Next.js Functionality"
+        description="ISR, On-demand ISR, all the things..."
       />
       <Hero />
       <div className="container mx-auto py-8">
@@ -32,6 +32,6 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       posts,
     },
-    revalidate: 3600,
+    revalidate: 10,
   };
 };
