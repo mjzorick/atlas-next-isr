@@ -1,4 +1,4 @@
-//const { withAtlasConfig } = require("@wpengine/atlas-next")
+const { withAtlasConfig } = require("@wpengine/atlas-next")
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -8,5 +8,4 @@ const nextConfig = {
   },
 };
 
-//module.exports = withAtlasConfig(nextConfig)
-module.exports = nextConfig
+module.exports = withAtlasConfig(nextConfig, { remoteCacheHandler: false })
