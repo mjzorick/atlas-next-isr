@@ -8,4 +8,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withAtlasConfig(nextConfig, { remoteCacheHandler: false })
+module.exports = withAtlasConfig(nextConfig)
